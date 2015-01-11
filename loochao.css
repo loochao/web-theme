@@ -1,0 +1,314 @@
+@media all
+{
+    html {
+	margin: 0;
+	/* font: 300 .9em/1.6em "Droid Serif", Cambria, Georgia, "DejaVu Serif", serif; */
+	background-image: url(http://orgmode.org/img/org-mode-unicorn-logo-worg.png);
+	background-attachment: fixed;
+	background-position: right bottom;
+	background-repeat: no-repeat;
+	background-color: white;
+    }
+    body {
+	margin: 10px 8% 10px 8%;
+	font: 12pt sans-serif, Verdana, Tahoma, helvetica;
+	text-align: justify;
+	padding: 12px;
+	line-height: 13pt;
+    }
+
+    h1 {font-size: 18pt;}
+
+    .title {
+	color: #990000;
+	padding-bottom: 7px; 
+	margin-bottom: 20px; 
+	border-bottom: 1px solid #222;}
+
+    h2 {
+	color: grey;
+	font-size: 14pt;
+	margin-bottom: 5px;
+	background-color: #EEEEEE;
+	padding: 5px;
+    }
+    h2:hover {
+/*	color: rgb(204, 204, 204);*/
+/*	background-color: rgb(204,204,204);*/
+    }    
+
+    h3 {
+	/*text-decoration: underline;*/
+	font-size: 13pt; font-weight: bold; color: #333333;
+	border-bottom: 1px dashed;
+    }
+
+    h3:hover {
+	border-left: 3px dashed;
+/*	background-color: rgb(204,204,204);*/
+    }
+    
+    h4 {font-size: 11pt; color: #003333}
+
+    a {text-decoration: none; color: #006666}
+    a:visited {text-decoration: none; color: #336666}
+    a:hover {text-decoration: underline; color: #003333}
+
+    .todo {color: #990000;}
+    .done {color: #006666;}
+    .timestamp-kwd {color: #444;}
+    .tag {color: #DDD; font-size: 70%; font-weight: 500;}
+
+    table {border: none;}
+    td {border: 0px solid #dddddd; padding: .1em .7em .1em .3em;}
+    th {border: none;}
+
+    li {padding-top: 2px;
+	padding-bottom: 2px;}
+
+    code {font-size: 10pt;}
+
+    pre {border: 1px solid #555;
+    	 background: #EEEEEE;
+    	 font-size: 12pt;
+    	 padding: 10px;
+    	}
+
+    #content .example
+    {
+	margin: 15px 25px 5px 25px;
+	padding: 2px 5px 2px 5px;
+	font-family: monospace, "Bitstream Vera Sans Mono","Courier New",  Courier;
+	line-height: 1.2em;
+	overflow: auto;
+    }
+
+    img {border: none;}
+
+    .share img {
+	opacity: .4;
+	-moz-opacity: .4;
+	filter: alpha(opacity=40);
+    }
+
+    .share img:hover {
+	opacity: 1;
+	-moz-opacity: 1;
+	filter: alpha(opacity=100);
+    }
+
+    
+    /* #navmenu */
+    /* { */
+    /* 	clear: left; */
+    /* 	float: left; */
+    /* 	width: 150px; */
+    /* 	margin: 0 0 20px 0; */
+    /* 	padding: 0; */
+    /* 	font-size: 0.9em; */
+    /* 	border: solid 1px #9AB7C2; */
+    /* } */
+
+    /* #navmenu h2 */
+    /* { */
+    /* 	font-size: 1em; */
+    /* 	margin: 0 0 0.2em 0; */
+    /* 	padding: 2px 0 2px 5px; */
+    /* 	color:black; */
+    /* 	background-color: #D5E2E6; */
+    /* } */
+
+    /* #navmenu ul */
+    /* { */
+    /* 	width: 150px; */
+    /* 	font-size: 1em; */
+    /* 	padding-left: 25px; */
+    /* 	margin: 5px 2px 5px 0; */
+    /* } */
+
+    /* #navmenu li */
+    /* { */
+    /* 	list-style: disc; */
+    /* 	color: black; */
+    /* } */
+
+    /* #navmenu li a */
+    /* { */
+    /* 	font-weight: bold; */
+    /* 	height: 18px; */
+    /* 	text-decoration: none; */
+    /* 	color: grey; */
+    /* } */
+
+    /* #navmenu li a:hover */
+    /* { */
+    /* 	color: black; */
+    /* 	text-decoration: underline; */
+    /* } */
+
+/* table of contents */
+/*    #table-of-contents {
+	padding-left: 140px;
+	padding-right: 40px;
+	float: center;
+	line-height: 240%;
+	text-align: center;
+	z-index: 1;
+    }
+
+    #table-of-contents ul {
+	float: center;
+	text-align: center;
+	display: inline;
+	margin: 2em;
+	padding: 2em;
+    }
+    
+    #table-of-contents ul li {
+	float: center;
+	text-align: center;
+	list-style-type: none;
+	display: inline;
+    }
+    
+    #table-of-contents ul li a {
+        float: center;
+        text-align: center;
+        text-decoration: none;
+        margin: .5em;
+        border-radius: 4px;
+        -moz-border-radius: 4px;
+        -webkit-border-radius: 4px;
+        color: #000;
+        padding: .25em;
+        background-color: #a2b5cd;
+        white-space: nowrap;
+    }
+
+    #table-of-contents ul li a:hover {
+        background-color: #bcd2ee;
+    }
+    
+    #table-of-contents h2 {
+	display: none;
+    }*/
+
+
+/* footer */
+    #postamble {
+	margin-top: 30px;
+	border-top: 1px solid #DDD;
+	padding-top: 10px;
+	text-align: center
+    }
+
+    #postamble p.date
+    {
+	width:40%;
+	padding-left:2ex;
+	float:left;
+	text-align:left;
+	font-size:0.8em;
+	color:#999999;
+    }
+    
+    #postamble p.author
+    {
+	clear:both;
+	width:40%;
+	padding-right:2ex;
+	float:right;
+	font-size:0.8em;
+	color:#999999;
+	text-align:right;
+	white-space:nowrap;
+    }
+
+    #postamble p {
+	font-size: 80%;
+	margin: 2px;
+    }
+
+    #hosted, #hosted table
+{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    border-style: none;
+}
+
+   .tag { /*display: none;*/
+	  color: Firebrick;
+	  float: right;
+	  margin-right:10px;
+	  background-color:#eeeeee; font-weight:bold; font-size: 90%; text-align: right;
+          display: none;
+   }
+   
+/* org-info.js */
+
+    .org-info-js_info-navigation
+    {
+	border-style:none;
+    }
+
+    #org-info-js_console
+    {
+	color:#333333;
+	margin:0px;
+	background-color:#ffffff;
+    }
+
+    #org-info-js_console-input
+    {
+	background-color:#ffffff;
+	border-style:none;
+	color:#333333;
+	padding-left:10px;
+	vertical-align:middle;
+    }
+
+    #org-info-js_console-label
+    {
+	font-size:11px;
+	font-weight:bold;
+	padding-left:10px;
+	font-family:Verdana,Arial,sans-serif;
+	vertical-align:middle;
+    }
+
+    .org-info-js_console-label-warning
+    {
+	color:#cc0000;
+    }
+
+    #org-info-js_console-container
+    {
+	border:1px solid #cccccc;
+    }
+
+    .org-info-js_search-highlight
+    {
+	background-color:#adefef; /* emacs default */
+	color:#000000;
+	font-weight:bold;
+	font-size:17px;
+    }
+/* org-info.js */
+
+}
+
+@media screen
+{
+    
+}
+
+@media print
+{
+    body {
+	margin: 10px 0.8% 10px 0.8%;
+	font: 12pt sans-serif, Verdana, Tahoma, helvetica;
+	text-align: justify;
+	padding: 12px;
+	line-height: 13pt;}
+    }
